@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ffffff 0%, #e89b6c 24%, #f0badf 45%, #a0d8ed 75%, #fff 100%);
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 96%;
+    height: 70px;
+    margin: auto;
+}
+
+#logo {
+    float: left;
+    height: 70px;
+    padding: 20px 30px;
+    font-size: 28px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    color: rgb(118, 115, 115);
+    margin-left: 25px;
+    position: relative;
+}
+
+#logo::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 6px;
+    background: linear-gradient(90deg, blue, red, yellow);
+    right: calc(50% - 20px);
+    bottom: 10px;
+
+}
+
+menu {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+menu>li {
+    float: left;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 20px 30px;
+    height: 70px;
+    line-height: 30px;
+    color: rgb(103, 101, 101);
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #e92177;
+}
+
+menu {
+    float: right;
+}
+
+section {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    margin: auto;
+    margin-top: 200px;
+}
+
+h1.text-background {
+    background: linear-gradient(90deg, rgba(27, 54, 224, 1) 10%, rgba(255, 255, 255, 1) 20%, rgba(254, 246, 246, 1) 66%, rgb(225, 85, 80) 90%);
+}
+
+h1.text-background {
+    width: fit-content;
+    margin: auto;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 72px;
+    font-weight: 600;
+    letter-spacing: 1.1em;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(63, 62, 62);
+    margin-bottom: 60px;
+}
+
+.connect-button a {
+    background-color: white;
+    color: #495df1;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 0.024em;
+    line-height: 1.1;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.connect-button a:hover {
+    color: #e92177;
+}
